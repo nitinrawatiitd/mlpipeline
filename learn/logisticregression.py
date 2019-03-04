@@ -14,7 +14,7 @@ Improvements
 3. Declare the parameters in CLI way
 '''
 
-# declaring paramters and inputs
+# declaring parameters and inputs
 data = pd.read_csv('../data/'+'train_preprocessed.csv')
 feat_groups = 'RAW'
 tuned_parameters = [{'alpha':[0.0005,0.001,0.005,0.01,0.1,0.5]}]

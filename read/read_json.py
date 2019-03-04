@@ -43,5 +43,5 @@ for line in lines:
     if i%1000==0:
         print i
 
-#conver to dataframe
+#convert to dataframe
 df = pd.DataFrame(lst,columns=header)
